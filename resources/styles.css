@@ -16,6 +16,7 @@ img {
 .navbar {
     background-color: white;
     box-shadow: 0px 5px 15px grey;
+    border-bottom: none;
 }
 
 .hr_style {
@@ -35,3 +36,15 @@ img {
     width: 30%;
     overflow: auto;
 }
+
+@media (max-width: 768px) {
+#nav_color {
+    background-color: rgb(69,122,178);
+}
+
+.collapse {
+    background-color:white;
+}
+
+}
+  
