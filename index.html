@@ -1,36 +1,37 @@
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap Visualization Dashboard</title>
-    
-        <!-- Bootstrap CSS -->
-        <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-    
-        <!-- Custom styles for this template -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
-        crossorigin="anonymous">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="resources/styles.css">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Visualization Dashboard</title>
 
-    </head>
+    <!-- Bootstrap CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="resources/styles.css">
+
+</head>
 
 <body>
     <nav class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand bg-primary" href="#">Latitude</a>
+                <a class="navbar-brand bg-primary" href="index.html">Latitude</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li role="presentation" class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                            Plots 
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            Plots
                             <span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu">
@@ -61,8 +62,9 @@
                         <br>
                         After assembling the dataset, we used Matplotlib to plot various
                         aspects of the weather vs. latitude. Factors we looked at included:
-                        temperature, cloudiness, wind speed, and humidity. This site provides the source data and 
-                        vizualizations created as part of the analysis, as well as explanations and descriptions of analysis
+                        temperature, cloudiness, wind speed, and humidity. This site provides the source data and
+                        vizualizations created as part of the analysis, as well as explanations and descriptions of
+                        analysis
                         trends and correlations witnessed.
                     </p>
                 </div>
@@ -73,25 +75,25 @@
                         <h3 class="text-primary">Vizualization</h3>
                         <hr class="hr_style">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-3">
                                 <a href="MaxTemp.html" class="thumbnail">
                                     <img src="images/Fig1.png" alt="City Latitude vs. Max Temperature">
                                 </a>
                             </div>
-                            <div class="col-md-6">
-                                <a href="#" class="thumbnail">
+                            <div class="col-md-6 col-sm-3">
+                                <a href="Humidity.html" class="thumbnail">
                                     <img src="images/Fig2.png" alt="City Latitude vs. Humidity">
                                 </a>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-md-6">
-                                <a href="#" class="thumbnail">
+                            <div class="col-md-6 col-sm-3">
+                                <a href="Cloudiness.html" class="thumbnail">
                                     <img src="images/Fig3.png" alt="City Latitude vs. Cloudiness">
                                 </a>
                             </div>
                             <div class="col-md-6">
-                                <a href="#" class="thumbnail">
+                                <a href="WindSpeed.html" class="thumbnail">
                                     <img src="images/Fig4.png" alt="City Latitude vs. Wind Speed">
                                 </a>
                             </div>
